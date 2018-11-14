@@ -24,5 +24,9 @@ int main(){
     cout << endl;//上記は「式」なので式の連続はカンマで区切ることができる!(だっけ)
   }
 
+  int d[] = {0,1,2,3,4,5};
+  for(int i:d){//foreach文 C++11で追加
+    cout << i << endl;
+  }
   return 0;
 }
